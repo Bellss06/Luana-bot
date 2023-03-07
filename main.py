@@ -19,7 +19,7 @@ while True:
   elif nome == 'Eliete':
     print(f"Esse é o mesmo nome da dona da loja muito prazer {nome}")
   else:
-    print("Muito prazer")
+    print(f"Muito prazer {nome}")
     break
 
 
@@ -36,8 +36,12 @@ if leed == 1:
   print("Venha visitar nossa loja e São Jose da Lapa \n Rua Presidente Costa e Silva")
 elif leed == 2:
   print("siga nosso instagram @tatatattata")
-else:
+elif leed == 3:
   print("Venha visitar nossa loja e São Jose da Lapa \n Rua Presidente Costa e Silva siga nosso instagram @tatatattata ")
+
+if leed>=4:
+  print('Eu não entende')
+
 
 print(' ')
 
@@ -56,13 +60,17 @@ elif serviço == 2:
   festa = input('>:')
   print("Por favor Aguarde Eliete responder")
 
-else:
+elif serviço == 3:
   print("qual tipo de personalização? \n 1- foto \n 2- logo \n 3- personalizado")
   blusa = int('>:')
   print("Por favor Aguarde Eliete responder")
 
+if serviço >=4:
+  print("Não entende")
 
-print(' ')
+print(" ")
+
+
 print('espero que o atendimento tenha sido agradavel. Até mais')
   
   
