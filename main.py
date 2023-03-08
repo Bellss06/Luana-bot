@@ -42,6 +42,9 @@ elif leed == 3:
 if leed>=4:
   print('Eu não entende')
 
+while leed >= 4:
+    break
+
 
 print(' ')
 
@@ -67,6 +70,10 @@ elif serviço == 3:
 
 if serviço >=4:
   print("Não entende")
+
+while serviço >= 4:
+    break
+
 
 print(" ")
 
